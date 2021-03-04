@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 # Create A window, in which you can input a verse, and it then scrapes and parses the data from Bible Hub
 # Display it in a similar format
 
-URL = "https://biblehub.com/interlinear/songs/1-3.htm"
+URL = "https://biblehub.com/interlinear/songs/5-1.htm"
 page = requests.get(URL)
 
 soup = BeautifulSoup(page.content, "html.parser")
