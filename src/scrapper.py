@@ -1,14 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-from input import User_Input
-# The Plan:
-
-# Inspect Bible Hub Text Analysis
-# Scrape Bible Hub
-    # We want the Hebrew Text, English Text, and Morphology
-# Parse the Data
-# Create A window, in which you can input a verse, and it then scrapes and parses the data from Bible Hub
-# Display it in a similar format
 
 def scrapper(lookup):
     URL = f"https://biblehub.com/interlinear/{lookup.book}/{lookup.verse}.htm"
