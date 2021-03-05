@@ -10,7 +10,7 @@ from input import User_Input
 # Create A window, in which you can input a verse, and it then scrapes and parses the data from Bible Hub
 # Display it in a similar format
 
-lookup = User_Input("revelation", "3-16", "new")
+lookup = User_Input("john", "3-16", "new")
 
 URL = f"https://biblehub.com/interlinear/{lookup.book}/{lookup.verse}.htm"
 page = requests.get(URL)
