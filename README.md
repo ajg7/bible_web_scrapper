@@ -1,5 +1,7 @@
 # Bible Web Scrapper
 
+Data is scrapped from: BibleHub[https://biblehub.com/]
+
 ## How to Install
 
 1. Fork and Clone
@@ -20,6 +22,6 @@ pip install beautifulsoup4
 python ./src/window.py
 ```
 
-2; type a book of the Bible in top input box
+2. Type a book of the Bible in top input box
 
-3; type only one verse in the bottom input box
+3. Type only one verse in the bottom input box
