@@ -1,6 +1,6 @@
 # Bible Web Scrapper
 
-Data is scrapped from: BibleHub[https://biblehub.com/]
+Data is scrapped from: [BibleHub](https://biblehub.com/)
 
 ## How to Install
 
