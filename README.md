@@ -19,7 +19,9 @@ pip install beautifulsoup4
 1. In the terminal, write the following:
 
 ```python3
-python ./src/window.py
+cd src
+
+python window.py
 ```
 
 2. Type a book of the Bible in top input box
